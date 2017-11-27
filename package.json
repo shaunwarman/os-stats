@@ -1,0 +1,22 @@
+{
+  "name": "os-stats",
+  "version": "0.0.1",
+  "description": "A nodejs OS stats stream",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "test": "./node_modules/tape/bin/tape test/test-os.js"
+  },
+  "keywords": [
+    "node",
+    "OS",
+    "stats",
+    "metrics"
+  ],
+  "author": "Shaun Warman",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "tape": "^4.8.0"
+  }
+}
